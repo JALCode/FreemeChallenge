@@ -11,7 +11,7 @@ regex_importe = r"(-?\d+[.,]\d{2}) ?€?"
 f = open('data.txt', encoding="utf8")
 
 data = json.loads(f.read())
-
+f.close()
 fechas = []
 importes = []
 totales = []
